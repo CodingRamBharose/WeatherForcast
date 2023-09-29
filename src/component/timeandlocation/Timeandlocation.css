@@ -1,0 +1,42 @@
+.timeloc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7rem;
+    margin-right: 3rem;
+}
+.time{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timedetails{
+    font-size: 1.5rem;
+    color: #dfdddd;
+}
+.location{
+    display: flex;
+    margin-top: 1px;
+    align-items: center;
+    justify-content: center;
+}
+.locdetails{
+    font-size: 2rem;
+    color: white;
+}
+@media screen and (max-width: 700px) {
+    .timeloc{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .time{
+        margin-top: 0;
+    }
+    .locdetails{
+        font-size: 1.5rem;
+    }
+    .timedetails{
+        font-size: 0.8rem;
+    }
+}
